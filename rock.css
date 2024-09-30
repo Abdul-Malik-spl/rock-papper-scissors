@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.nav {
+  width: 100vw;
+  height: 80px;
+  background: maroon;
+  color: white;
+  font-family: Sail;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  line-height: 80px;
+  font-weight: 500;
+  text-shadow: 2px 2px 1px gold;
+}
+.main {
+  height: 80vh;
+  width: 100vw;
+  background: teal;
+}
+.footer {
+  height: 7vh;
+  background: black;
+  color: white;
+  line-height: 2.5;
+  overflow: hidden;
+}
+.copy {
+  transform: translateX(20px);
+}
+.g-m-box {
+  background: white;
+  height: 20vh;
+  width: 60vw;
+  position: relative;
+  top: 20vh;
+  left: 20vw;
+}
+.button-box {
+  display: flex;
+  justify-content: space-around;
+  background: whitesmoke;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+.g-box {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  height: 20px;
+}
+.result-box {
+  background: rgb(255, 255, 255);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-rock {
+  background: red;
+  color: white;
+  padding: 5px;
+  border: none;
+}
+.btn-papper {
+  background: skyblue;
+  color: black;
+  padding: 5px;
+  border: none;
+}
+.btn-scissor {
+  background: purple;
+  color: white;
+  padding: 5px;
+  border: none;
+}
+.btn:hover {
+  box-shadow: 3px 3px 2px maroon;
+}
